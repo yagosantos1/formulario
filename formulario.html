@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cadrasto de cliente</title>
+</head>
+<body>
+<fieldset>
+    <legend>DADOS PESSOAIS</legend>
+    <br>
+     nome:<input type="text" class="caixa_larga" id="nome"><br> <br>
+     endereço: <input type="text" class="caixa_larga" id="endereco"><br> <br>
+     cidade: <input type="text" class="caixa_larga" id="cidade"><br><br>
+     estado <select id="estado" class="estado"><br><br>
+                <option>são paulo </option>
+            </select>
+        
+</fieldset>
+
+<fieldset>
+    <legend>DADOS PROFISIONAIS </legend>
+    Natureza do cargo <br> 
+            <input type="radio" class="cargo" id="gerencia" name="cargos">gerência
+            <input type="radio" class="cargo" id="financeiro" name="cargos">financeiro
+            <input type="radio" class="cargo" id="recepcao" name="cargo">recepçâo
+            <input type="radio" class="cargo" id="adiministrativo" name="cargos">adiministrativo
+            <input type="radio" class="cargo" id="juridico" name="cargos">juridico
+
+            <br>
+    area de interesse <br>
+            <input type="checkbox" class="areas" id="computacao"> computação 
+            <input type="checkbox" class="areas" id="biologia"> biologia 
+            <input type="checkbox" class="areas" id="meio ambiente"> meio ambiente 
+            <input type="checkbox" class="areas" id="engenharia"> engenharia 
+            <input type="checkbox" class="areas" id="historia"> história 
+            <br>
+     mini-curriculo: <textarea class="texto" id="curriculo" >
+
+</fieldset>
+
+<div>
+    <button class="botao">limpar</button>
+    <BUtton class="botao">enviar </BUtton>      
+</div>
+
+
+    </body>
+</html>
